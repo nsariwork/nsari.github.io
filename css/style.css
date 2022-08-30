@@ -38,6 +38,13 @@ nav::-webkit-scrollbar {
     display: none;
 }
 
+.copyright {
+  font-size: 1rem;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
 #page {
   padding-top: 4.625rem;
   margin-left: 30%;
@@ -198,8 +205,40 @@ table {
   width: 31.75%;
 }
 
+.row_CV {
+  max-width: 950px;
+}
+
+.row_CV p {
+  margin-top: -20px;
+}
+
+.column_year {
+  text-align: right;
+  padding: 0;
+  margin-left: -5px;
+  margin-top: : 0;
+  float: left;
+  min-width: 130px;
+  max-width: 130px;
+}
+
+.column_detail {
+  padding: 0;
+  margin-left: -5px;
+  margin-top: : 0;
+  float: left;
+  width: 80%;
+}
+
 /* Clear floats after the columns */
 .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row_CV:after {
   content: "";
   display: table;
   clear: both;
